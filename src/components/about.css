@@ -1,0 +1,116 @@
+.about {
+    max-width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+.about_title {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.about_content .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_content .left .heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about_content .left p {
+    width: 80%;
+    margin: 1rem;
+}
+
+.about_content .right {
+    width: 50%;
+}
+
+.about_content .right img {
+    border: 10px solid #edc218;
+    padding: 1rem 1rem;
+    transform: translate(50%, -10%);
+    width: 50%;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .about {
+        max-width: 100%;
+        height: 100vh;
+        background: #000;
+        color: #fff;
+    }
+
+    .about_content {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 2rem;
+    }
+
+    .about_content .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_content .right {
+        width: 80%;
+    }
+
+    .about_content .right img {
+        border: 10px solid #edc218;
+        padding: 1rem 1rem;
+        transform: translate(80%, -10%);
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .about {
+        max-width: 100%;
+        height: 200vh;
+        background: #000;
+        color: #fff;
+    }
+
+    .about_content {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 2rem;
+    }
+
+    .about_content .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_content .right {
+        width: 80%;
+    }
+
+    .about_content .right img {
+        border: 10px solid #edc218;
+        padding: 1rem 1rem;
+        transform: translate(80%, -10%);
+        width: 50%;
+    }
+}
